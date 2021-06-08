@@ -16,3 +16,7 @@ docker run --rm -it -v $(pwd)/embulk:/embulk embulk preview config.yml
 # run
 docker run --rm -it -v $(pwd)/embulk:/embulk embulk run config.yml
 ```
+
+## mock data
+The mock data was created with mockaroo.
+https://www.mockaroo.com/

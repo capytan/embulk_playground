@@ -1,4 +1,4 @@
-This is the repository we created for embulk learning. You can use the following command to migrate data from mysql to postgresql.
+This is the repository I created for embulk learning. You can use the following command to migrate data from mysql to postgresql.
 
 ## commands
 

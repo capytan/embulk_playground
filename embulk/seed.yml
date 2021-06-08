@@ -1,0 +1,22 @@
+in:
+  type: mysql
+  host: localhost
+  user: root
+  password: "root"
+  database: embulk_in
+  table: MOCK_DATA
+out:
+  type: postgresql
+  host: localhost
+  user: root
+  password: "root"
+  database: embulk_out
+  table: MOCK_DATA
+  mode: insert
+  column_options:
+    id: { type: "INT" }
+    first_name: { type: " VARCHAR(50)" }
+    last_name: { type: " VARCHAR(50)" }
+    email: { type: " VARCHAR(50)" }
+    gender: { type: " VARCHAR(50)" }
+    ip_address: { type: " VARCHAR(20)" }
